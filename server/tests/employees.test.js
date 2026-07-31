@@ -70,7 +70,7 @@ describe('Employee management API', () => {
     it('returns 404 for a non-existent employee', async () => {
       const { token } = await createAdmin();
       const res = await request(app)
-        .put('/api/employees/64b64b64b64b64b64b64b64')
+        .put('/api/employees/507f1f77bcf86cd799439011')
         .set('Authorization', `Bearer ${token}`)
         .send({ name: 'Ghost' });
 
