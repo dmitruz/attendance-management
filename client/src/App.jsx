@@ -10,7 +10,7 @@ import AdminAttendance from './pages/AdminAttendance';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/attendance-management">
       <AuthProvider>
         <Navbar />
         <Routes>
