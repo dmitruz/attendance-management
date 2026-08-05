@@ -2,8 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/attendance-management/',
   plugins: [react()],
   server: {
-    base: '/attendance-management/',
+    port: 5173,
   },
 });
