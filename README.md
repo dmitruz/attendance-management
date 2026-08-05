@@ -1,6 +1,7 @@
 # Attendance Management System
 
-**Live demo:** https://dmitruz.github.io/attendance-management/
+**Live demo:** https://dmitruz.github.io/attendance-management/login<img width="601" height="748" alt="login" src="https://github.com/user-attachments/assets/7c587836-bbc5-45c6-a009-b1e8078042b5" />
+
 **API:** https://attendance-management-wupo.onrender.com/api
 
 ### Try it yourself
@@ -17,6 +18,14 @@ The live demo is seeded with an admin account you're welcome to log in with and 
 A full-stack employee attendance tracker built with **Node.js / Express / MongoDB** on the backend and **React (Vite)** on the frontend. Employees check in/out from a personal dashboard; admins manage departments and employee accounts, and pull filterable, exportable attendance reports.
 
 Backend endpoints are covered by a **Jest + Supertest** test suite exercising authentication, role-based access control, check-in/check-out edge cases, and CSV export.
+
+<img width="601" height="748" alt="login" src="https://github.com/user-attachments/assets/7ffd2f02-22b1-468e-b659-0efe313d204a" />
+
+<img width="1752" height="886" alt="departments" src="https://github.com/user-attachments/assets/cc2f075a-28e6-4905-8597-6f486ad00f07" />
+
+<img width="1850" height="881" alt="admin-dashboard" src="https://github.com/user-attachments/assets/9d974485-b361-40db-97a7-59f287bc7b66" />
+
+
 
 
 
