@@ -1,8 +1,24 @@
 # Attendance Management System
 
+**Live demo:** https://dmitruz.github.io/attendance-management/
+**API:** https://attendance-management-wupo.onrender.com/api
+
+### Try it yourself
+
+Email: admin@yourcompany.com
+Password: SomeStrongPassword123!
+
+From there you can create departments, add employee accounts, check in/out as an employee, and pull filtered attendance reports with CSV export. This is a shared public demo, not a private instance — please be considerate with the data, and don't be surprised if it occasionally gets reset or modified by other visitors.
+
+Note: the API is hosted on Render's free tier, which spins down after ~15 minutes of inactivity. If it's been idle, the first request (e.g. logging in) can take 30-60 seconds while it wakes back up — that's expected, not a bug.
+
+The live demo is seeded with an admin account you're welcome to log in with and explore:
+
 A full-stack employee attendance tracker built with **Node.js / Express / MongoDB** on the backend and **React (Vite)** on the frontend. Employees check in/out from a personal dashboard; admins manage departments and employee accounts, and pull filterable, exportable attendance reports.
 
 Backend endpoints are covered by a **Jest + Supertest** test suite exercising authentication, role-based access control, check-in/check-out edge cases, and CSV export.
+
+
 
 ## Features
 
